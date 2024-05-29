@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiệm của Kem - Home</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Tiệm của KEM </a>
+
+    <nav class="navbar">
+        <a href="index.html">Trang chủ</a>
+        <a href="#features" onmouseover="document.getElementById('appear').style.display = 'block';">Tác vụ </a>
+        <a href="#products">Sản phẩm</a>
+        <a href="#categories">Khuyến mãi</a>
+        <a href="#review">Đánh giá</a>
+        <a href="#blogs">Tin tức</a>
+    </nav>
+    <div class="appear" id="appear" style="display: none;"onmouseleave="document.getElementById('appear').style.display = 'none';">
+        <a href="khuyenmai.html"> Khuyến mãi</a> <br>
+        <a href="sanpham.html"> Sản phẩm</a> <br>
+        <a href="thanhtoan.html">Thanh toán</a>
+    </div>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/sp (11).png" alt="">
+            <div class="content">
+                <h3>Sandal Biti's</h3>
+                <span class="price">250.000/-</span>
+                <span class="quantity">slg : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/sp (13).png" alt="">
+            <div class="content">
+                <h3>vòng tay ST </h3>
+                <span class="price">140.000/-</span>
+                <span class="quantity">slg : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/sp (7).png" alt="">
+            <div class="content">
+                <h3>Đai LV </h3>
+                <span class="price">200.000/-</span>
+                <span class="quantity">slg : 1</span>
+            </div>
+        </div>
+        <div class="total"> Tổng : 590.000/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Đăng nhập</h3>
+        <input type="email" placeholder="Email" class="box">
+        <input type="password" placeholder="Mật khẩu" class="box">
+        <p>Quên mật khẩu? <a href="#">Click</a></p>
+        <p>Bạn chưa có tài khoản <a href="#">Tạo tài khoản </a></p>
+        <input type="submit" value="Đăng nhập" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3> Xin chào quý khách </h3>                
+        <p>Sự hài lòng của bạn là niềm vui của chúng tôi.</p> 
+        <a href="#" class="btn">Shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> KEM <span>Tác vụ</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/shopping.png" alt="">
+            <h3>Shopping</h3>
+            <p>Tiệm của KEM</p>
+            <a href="sanpham.html" class="btn">Click</a>
+        </div>
+
+        <div class="box">
+            <img src="image/5305244.png" alt="">
+            <h3>Khuyến mãi</h3>
+            <p>Các sản phẩm đang được giảm giá</p>
+            <a href="khuyenmai.html" class="btn">Click</a>
+        </div>
+
+        <div class="box">
+            <img src="image/paymentonline.png" alt="">
+            <h3>Thanh toán</h3>
+            <p>Hình thức đa dạng</p>
+            <a href="thanhtoan.html" class="btn">Click</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> KEM <a href="sanpham.html"><span>Sản phẩm</span></a> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/sp.png" alt="">
+                <h3>Hoa tai CC </h3>
+                <div class="price"> 79.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp1.png" alt="">
+                <h3>Túi xách cao cấp </h3>
+                <div class="price"> 999.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp2.png" alt="">
+                <h3>Túi xách HM</h3>
+                <div class="price"> 340.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp3.png" alt="">
+                <h3>Kính mát YV</h3>
+                <div class="price"> 550.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp4.png" alt="">
+                <h3>Gang tay biểu diễn</h3>
+                <div class="price"> 120.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp5.png" alt="">
+                <h3>Kính thời trang Z</h3>
+                <div class="price"> 549.000 đồng  </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp6.png" alt="">
+                <h3>Kính thời trang Z</h3>
+                <div class="price"> 310.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/sp7.png" alt="">
+                <h3>Mũ Buket</h3>
+                <div class="price"> 159.000 đồng  </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp8.png" alt="">
+                <h3>Mũ lưỡi trai</h3>
+                <div class="price"> 89.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp9.png" alt="">
+                <h3>Mũ vải</h3>
+                <div class="price"> 119.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp10.png" alt="">
+                <h3>Mắc cài áo BTBT</h3>
+                <div class="price"> 460.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp (9).png" alt="">
+                <h3>Mũ vải Kati</h3>
+                <div class="price"> 80.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp (8).png" alt="">
+                <h3>fresh potato</h3>
+                <div class="price"> 79.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sp (7).png" alt="">
+                <h3>Dây chuyền may mắn</h3>
+                <div class="price"> 180.000 đồng </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Thêm vào giỏ </a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> KEM <a href="khuyenmai.html"><span>Khuyến mãi</span></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/sp (5).png" alt="">
+            <h3>Kẹp tóc Lisa</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/sp (4).png" alt="">
+            <h3>Vòng tay Uni</h3>
+            <p>upto 35% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/sp (3).png" alt="">
+            <h3>Khuyên bạc</h3>
+            <p>upto 40% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/sp (2).png" alt="">
+            <h3>Trâm cài tóc</h3>
+            <p>upto 55% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/sp (14).png" alt="">
+            <h3>Ghim ngọc trai </h3>
+            <p>upto 25% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/sp (15).png" alt="">
+            <h3>Hoa tai may mắn </h3>
+            <p>upto 30% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/sp (13).png" alt="">
+            <h3>Vòng tay ST </h3>
+            <p>upto 60% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/sp (12).png" alt="">
+            <h3>Vòng tay AV</h3>
+            <p>upto 15% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/t1.png" alt="">
+            <h3>Bộ trang sức bạc</h3>
+            <p>upto 15% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="image/t2.png" alt="">
+            <h3>Bộ trang sức ánh hồng </h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">Shop now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- review section starts  -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> KEM <a href="danhgia.html"><span>Đánh giá</span></a>  </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            
+
+            <div class="swiper-slide box">
+                <img src="image/ava2.jpg" alt="">
+                <p>Trên cả tuyệt vời, các mẫu mã cực kỳ đa dạng, mua rẻ hơn Shoppe, giao hàng nhanh, đóng gói ưng lắm.</p>
+                <h3>jellyfish0207</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/ava4.jpg" alt="">
+                <p>Hình thật chân thật, sản phẩm chất lượng tốt, dễ phối, giá cả hợp lý. Toàn đồ xinh lắm luôn hứa sẽ mua lại ạ 🥺</p>
+                <h3>thuynguyen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/ava.jpg" alt="">
+                <p>ửa hàng nhiều khuyến mãi, sản phẩm đa dạng, chất lượng tốt, nhân viên siêu siêu dễ thương, sẽ ghé qua.</p>
+                <h3>peachies_202 </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/ava3.jpg" alt="">
+                <p>Một chiếc web tuyệt vời. Đồ ở đây thì chất lượng miễn bàn, highly recommend mọi người mua nhanh còn kịp. </p>
+                <h3>hogngok.hoang</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> KEM <a href="tintuc.html"><span>Tin tức</span></a> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/q1.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Admin_1 </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 26/10/2022 </a>
+                </div>
+                <h3>Mua mũ cói để hướng ưu đãi hấp dẫn?</h3>
+                <p>Tiệm của KEM đang có chương trình mua mũ cói, tặng kẹo tóc mini. </p>
+                <a href="#" class="btn">Click</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/q2.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Admin_2 </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 26/10/2022 </a>
+                </div>
+                <h3>Giá Biti's giảm mạnh</h3>
+                <p>Các cô nàng yêu thời trang không thể bỏ qua sự kiện có 102 này. </p>
+                <a href="#" class="btn">Click</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/q3.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> Admin_1 </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 28/10/2022 </a>
+                </div>
+                <h3>Phụ kiện, trang sức sale sập sàn</h3>
+                <p>Sở hữu ngay một đôi bông tai đính đá hoặc vòng tay may mắn.</p>
+                <a href="#" class="btn">Click</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Tiệm của KEM <i class="fas fa-shopping-basket"></i> </h3>
+            <p>You never walk alone</p>
+            <div class="share">
+                <a href="https://www.facebook.com/hoanghongngoc1712" class="fab fa-facebook-f"></a>
+                <a href="https://www.instagram.com/hogngoc.hoang/" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Liên hệ</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +846697610 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +84567295286 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> ngochoang@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Hanoi, Vietnam </a>
+        </div>
+
+        <div class="box">
+            <h3>Truy cập nhanh</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Trang chủ </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Tác vụ </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Sản phẩm </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Khuyễn mãi </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Phản hồi </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Tin tức </a>
+        </div>
+
+        <div class="box">
+            <h3>Phản hồi</h3>
+            <p>Hãy để lại email của bạn </p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="Xong" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit">  <span> Tiệm của KEM </span> | Cảm ơn quý khách </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
